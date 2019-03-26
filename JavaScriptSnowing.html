@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>snowing</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<script language="javascript">
+drop = new Array(); xx = new Array(); yy = new Array(); mv = new Array();
+snowsymbol = "*"; 
+snownums = 15;     
+speed=30; 
+angle=11;
+movex = -speed/angle;
+movey = speed;
+function snowing()
+{
+  for (var i = 0; i < snownums; i++)
+  {
+    xx[i]+=movex;  
+    yy[i]+=mv[i];
+    if(xx[i] < 0) xx[i] = maxx+10;
+    if(yy[i] > maxy) yy[i] = 10;
+    drop[i].left = xx[i];
+    drop[i].top  = yy[i]+document.body.scrollTop;
+   }
+  setTimeout('snowing()','1');
+}
+</script>
+</head>
+<body bgcolor="#000033">
+<script language="javascript">
+   maxx = document.body.clientWidth-40;
+   maxy = document.body.clientHeight-40;
+   for(var i= 0; i < snownums; i++)
+   {
+	     document.write('<div id="drop'+i+'" style="position: absolute;">'+snowsymbol+'</div>');
+	     drop[i] = eval("document.all['drop"+i+"'].style");
+		 xx[i] = Math.random()*maxx;
+	     yy[i] = -100-Math.random()*maxy;
+ 	     drop[i].left = xx[i];
+	     drop[i].top =  yy[i];
+	     drop[i].fontSize = (Math.random()*10)+10;
+	     drop[i].color = "#FFFFFF";
+         mv[i] = (Math.random()*5)+speed/16;
+   }
+   snowing();
+</script>
+</body>
+</html> 
