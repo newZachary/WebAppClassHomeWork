@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>FangShuSystem</display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CheckLogin</servlet-name>
+    <servlet-class>cn.sdcet.project.web.CheckLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SignUpServlet</servlet-name>
+    <servlet-class>cn.sdcet.project.web.SignUpServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdUserInfo</servlet-name>
+    <servlet-class>cn.sdcet.project.web.UpdUserInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>loginout</servlet-name>
+    <servlet-class>cn.sdcet.project.web.loginout</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>delthing</servlet-name>
+    <servlet-class>cn.sdcet.project.web.delthing</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>address</servlet-name>
+    <servlet-class>cn.sdcet.project.web.address</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CharacterFilter</servlet-name>
+    <servlet-class>cn.sdcet.project.web.CharacterFilter</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MyRequestWrapper</servlet-name>
+    <servlet-class>cn.sdcet.project.web.MyRequestWrapper</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginFilter</servlet-name>
+    <servlet-class>cn.sdcet.project.web.LoginFilter</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchHouse</servlet-name>
+    <servlet-class>cn.sdcet.project.web.SearchHouse</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OrderHouse</servlet-name>
+    <servlet-class>cn.sdcet.project.web.OrderHouse</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UploadPic</servlet-name>
+    <servlet-class>cn.sdcet.project.web.UploadPic</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>VerifyCodeServlet</servlet-name>
+    <servlet-class>cn.sdcet.project.web.VerifyCodeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Listener</servlet-name>
+    <servlet-class>cn.sdcet.project.web.Listener</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddAgent</servlet-name>
+    <servlet-class>cn.sdcet.project.web.AddAgent</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddHouseInfo</servlet-name>
+    <servlet-class>cn.sdcet.project.web.AddHouseInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdHouseInfo</servlet-name>
+    <servlet-class>cn.sdcet.project.web.UpdHouseInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ManagerFilter</servlet-name>
+    <servlet-class>cn.sdcet.project.web.ManagerFilter</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ErrorHelperServlet</servlet-name>
+    <servlet-class>cn.sdcet.project.web.ErrorHelperServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelHouseInfo</servlet-name>
+    <servlet-class>cn.sdcet.project.web.DelHouseInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MsgSeverlet</servlet-name>
+    <servlet-class>cn.sdcet.project.web.MsgSeverlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DelAgentInfo</servlet-name>
+    <servlet-class>cn.sdcet.project.web.DelAgentInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SearchUserInfo</servlet-name>
+    <servlet-class>cn.sdcet.project.web.SearchUserInfo</servlet-class>
+  </servlet>
+
+
+
+  <filter>
+    <filter-name>ManagerFilter</filter-name>
+    <filter-class>cn.sdcet.project.web.ManagerFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>ManagerFilter</filter-name>
+    <url-pattern>/Manager/*</url-pattern>
+  </filter-mapping>
+  <!--  
+  <filter>
+    <filter-name>CharacterFilter</filter-name>
+    <filter-class>cn.sdcet.project.web.CharacterFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>CharacterFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  -->
+  <filter>
+    <filter-name>LoginFilter</filter-name>
+    <filter-class>cn.sdcet.project.web.LoginFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>LoginFilter</filter-name>
+    <url-pattern>/LoginOut/login.jsp</url-pattern>
+  </filter-mapping>
+  <listener>
+    <listener-class>cn.sdcet.project.web.Listener</listener-class>
+  </listener>
+  <servlet-mapping>
+    <servlet-name>CheckLogin</servlet-name>
+    <url-pattern>/CheckLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SignUpServlet</servlet-name>
+    <url-pattern>/SignUpServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdUserInfo</servlet-name>
+    <url-pattern>/UpdUserInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>loginout</servlet-name>
+    <url-pattern>/loginout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>delthing</servlet-name>
+    <url-pattern>/delthing</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>address</servlet-name>
+    <url-pattern>/address</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CharacterFilter</servlet-name>
+    <url-pattern>/login.jsp</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MyRequestWrapper</servlet-name>
+    <url-pattern>/MyRequestWrapper</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginFilter</servlet-name>
+    <url-pattern>/LoginFilter</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchHouse</servlet-name>
+    <url-pattern>/SearchHouse</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderHouse</servlet-name>
+    <url-pattern>/OrderHouse</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadPic</servlet-name>
+    <url-pattern>/UploadPic</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>VerifyCodeServlet</servlet-name>
+    <url-pattern>/verify</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Listener</servlet-name>
+    <url-pattern>/Listener</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddAgent</servlet-name>
+    <url-pattern>/AddAgent</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddHouseInfo</servlet-name>
+    <url-pattern>/AddHouseInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdHouseInfo</servlet-name>
+    <url-pattern>/UpdHouseInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ManagerFilter</servlet-name>
+    <url-pattern>/ManagerFilter</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ErrorHelperServlet</servlet-name>
+    <url-pattern>/ErrorHelperServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelHouseInfo</servlet-name>
+    <url-pattern>/DelHouseInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MsgSeverlet</servlet-name>
+    <url-pattern>/MsgSeverlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelAgentInfo</servlet-name>
+    <url-pattern>/DelAgentInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchUserInfo</servlet-name>
+    <url-pattern>/SearchUserInfo</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <error-page>
+    <exception-type>500</exception-type>
+    <location>/Error/error.jsp</location>
+  </error-page>
+  <error-page>
+    <exception-type>404</exception-type>
+    <location>/Error/error.jsp</location>
+  </error-page>
+  <error-page>
+    <exception-type>java.lang.NumberFormatException</exception-type>
+    <location>/Error/error.jsp</location>
+  </error-page>
+  <error-page>
+    <exception-type>java.lang.Throwable</exception-type>
+    <location>/ErrorHlperServlet</location>
+  </error-page>
+   
+</web-app>

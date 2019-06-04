@@ -1,0 +1,1321 @@
+!SESSION 2019-03-11 10:53:10.426 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_43
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2019-03-11 10:53:47.179
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-03-11 10:53:47.179
+!MESSAGE A conflict occurred for SHIFT+DEL:
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.graphiti.ui.internal.action.RemoveAction,Remove,
+		Remove selected Pictogram Elements,
+		Category(org.eclipse.graphiti.ui.Graphiti_Category,Edit,Graphiti Diagram Editor,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.cut,Cut,
+		Cut the selection to the clipboard,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.handlers.WidgetMethodHandler@19aea6e2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.topcased.modeler.deleteModelObject,Delete From Model,
+		Allows the user to delete the selected graph element and its associated model element in a Topcased editor.,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2019-03-11 10:54:01.320
+!MESSAGE Installed snippet library: D:\Java\MyEclipse\myeclipse2013\configuration\org.eclipse.osgi\bundles\143\1\.cp\snippets\html\css_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2019-03-11 10:54:01.417
+!MESSAGE Installed snippet library: D:\Java\MyEclipse\myeclipse2013\configuration\org.eclipse.osgi\bundles\143\1\.cp\snippets\html\forms_lists_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2019-03-11 10:54:01.447
+!MESSAGE Installed snippet library: D:\Java\MyEclipse\myeclipse2013\configuration\org.eclipse.osgi\bundles\143\1\.cp\snippets\html\htmlform_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2019-03-11 10:54:01.467
+!MESSAGE Installed snippet library: D:\Java\MyEclipse\myeclipse2013\configuration\org.eclipse.osgi\bundles\143\1\.cp\snippets\html\html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2019-03-11 10:54:01.497
+!MESSAGE Installed snippet library: D:\Java\MyEclipse\myeclipse2013\configuration\org.eclipse.osgi\bundles\143\1\.cp\snippets\html\javascript_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2019-03-11 10:54:01.537
+!MESSAGE Installed snippet library: D:\Java\MyEclipse\myeclipse2013\configuration\org.eclipse.osgi\bundles\143\1\.cp\snippets\jsp\jsf_f_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2019-03-11 10:54:01.567
+!MESSAGE Installed snippet library: D:\Java\MyEclipse\myeclipse2013\configuration\org.eclipse.osgi\bundles\143\1\.cp\snippets\jsp\jsf_h_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2019-03-11 10:54:01.627
+!MESSAGE Installed snippet library: D:\Java\MyEclipse\myeclipse2013\configuration\org.eclipse.osgi\bundles\143\1\.cp\snippets\jsp\struts_bean_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2019-03-11 10:54:01.687
+!MESSAGE Installed snippet library: D:\Java\MyEclipse\myeclipse2013\configuration\org.eclipse.osgi\bundles\143\1\.cp\snippets\jsp\struts_html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2019-03-11 10:54:01.777
+!MESSAGE Installed snippet library: D:\Java\MyEclipse\myeclipse2013\configuration\org.eclipse.osgi\bundles\143\1\.cp\snippets\jsp\struts_logic_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2019-03-11 10:54:01.837
+!MESSAGE Installed snippet library: D:\Java\MyEclipse\myeclipse2013\configuration\org.eclipse.osgi\bundles\143\1\.cp\snippets\jsp\struts_tiles_snippets.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:05.456
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:05.476
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:05.476
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:05.496
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:05.496
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:05.516
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:05.516
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:05.526
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2019-03-11 10:54:05.566
+!MESSAGE Execution errororg.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:06.177
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:06.177
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:06.177
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:06.187
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:06.187
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:06.187
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:06.187
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:06.187
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2019-03-11 10:54:06.197
+!MESSAGE Execution errororg.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:06.616
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:06.616
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:06.616
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:06.616
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:06.616
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:06.626
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:06.626
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:06.626
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2019-03-11 10:54:06.626
+!MESSAGE Execution errororg.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:07.053
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:07.053
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:07.063
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:07.063
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:07.063
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:07.063
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:07.063
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:07.063
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2019-03-11 10:54:07.073
+!MESSAGE Execution errororg.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:07.703
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:07.713
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:07.713
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:07.713
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:07.713
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:07.713
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:07.713
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:07.723
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2019-03-11 10:54:07.723
+!MESSAGE Execution errororg.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:08.360
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:08.360
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:08.360
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:08.360
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:08.360
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:08.360
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:08.370
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:08.370
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2019-03-11 10:54:08.370
+!MESSAGE Execution errororg.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:10.943
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:10.953
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:10.953
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:10.953
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:10.953
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:10.953
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:10.963
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:10.966
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2019-03-11 10:54:10.970
+!MESSAGE Execution errororg.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:11.575
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:11.575
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:11.575
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:11.575
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:11.575
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:11.575
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:11.585
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:11.585
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2019-03-11 10:54:11.585
+!MESSAGE Execution errororg.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:12.429
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:12.429
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:12.429
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:12.439
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:12.439
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:12.439
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:12.449
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:12.449
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2019-03-11 10:54:12.449
+!MESSAGE Execution errororg.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:13.000
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:13.000
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:13.000
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:13.000
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:13.010
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:13.010
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:13.010
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:13.010
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2019-03-11 10:54:13.020
+!MESSAGE Execution errororg.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.equinox.ds 2 0 2019-03-11 10:54:13.160
+!MESSAGE Getting a lock required more than 10000 ms. There might be a synchronization problem in this callstack or just the build/dispose process of some components took too long! 
+!STACK 0
+java.lang.Exception: Debug stacktrace
+	at org.eclipse.equinox.internal.ds.InstanceProcess.getLock(InstanceProcess.java:120)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:560)
+	at org.eclipse.equinox.internal.ds.ServiceReg.getService(ServiceReg.java:53)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceUse$1.run(ServiceUse.java:141)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceUse.getService(ServiceUse.java:139)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.getService(ServiceRegistrationImpl.java:468)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.getService(ServiceRegistry.java:467)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.getService(BundleContextImpl.java:594)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningAgent.addingService(ProvisioningAgent.java:159)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:932)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:256)
+	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:183)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:317)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:261)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningAgent.getService(ProvisioningAgent.java:66)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.<init>(AbstractRepositoryManager.java:101)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.<init>(ArtifactRepositoryManager.java:37)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryComponent.createService(ArtifactRepositoryComponent.java:23)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningAgent.getService(ProvisioningAgent.java:72)
+	at com.genuitec.pulse.client.deliverypackage.runtime.internal.P2Services.getArtifactRepositoryManager(Unknown Source)
+	at com.genuitec.pulse.client.deliverypackage.runtime.ui.internal.Activator$ActivateP2ManageSitesJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:13.430
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:13.430
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:13.440
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:13.440
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:13.440
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:13.440
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:13.440
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:13.450
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2019-03-11 10:54:13.450
+!MESSAGE Execution errororg.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:13.875
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:13.875
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:13.885
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:13.885
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:13.885
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:13.895
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:13.895
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:13.895
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2019-03-11 10:54:13.905
+!MESSAGE Execution errororg.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:14.364
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:14.374
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:14.374
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:14.374
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:14.384
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:14.404
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:14.404
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:14.414
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2019-03-11 10:54:14.424
+!MESSAGE Execution errororg.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:14.876
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:14.876
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:14.876
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:14.886
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:14.886
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:14.886
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:14.886
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:14.896
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2019-03-11 10:54:14.896
+!MESSAGE Execution errororg.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:16.582
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:16.582
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:16.582
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:16.582
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:16.582
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:16.582
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:16.592
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:16.592
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2019-03-11 10:54:16.592
+!MESSAGE Execution errororg.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:17.342
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:17.342
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:17.342
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:17.342
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:17.342
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:17.352
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:17.352
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:17.352
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2019-03-11 10:54:17.352
+!MESSAGE Execution errororg.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:17.795
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:17.795
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:17.805
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:17.805
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:17.805
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:17.805
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:17.815
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:17.815
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2019-03-11 10:54:17.825
+!MESSAGE Execution errororg.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:18.469
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:18.469
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:18.469
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:18.469
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:18.469
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:18.479
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:18.479
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:18.479
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2019-03-11 10:54:18.479
+!MESSAGE Execution errororg.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:19.119
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:19.119
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:19.129
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:19.129
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:19.129
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:19.129
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:19.139
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:19.139
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2019-03-11 10:54:19.139
+!MESSAGE Execution errororg.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:20.930
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:20.930
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:20.940
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:20.940
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:20.940
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:20.940
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:20.950
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:20.950
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2019-03-11 10:54:20.950
+!MESSAGE Execution errororg.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:21.389
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:21.389
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:21.399
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:21.399
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:21.399
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:21.399
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:21.399
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:21.399
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2019-03-11 10:54:21.409
+!MESSAGE Execution errororg.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:22.025
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:22.025
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:22.035
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:22.035
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:22.035
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:22.035
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:22.035
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:22.045
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2019-03-11 10:54:22.045
+!MESSAGE Execution errororg.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:22.476
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:22.476
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:22.476
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:22.476
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:22.486
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:22.486
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:22.486
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:22.486
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2019-03-11 10:54:22.486
+!MESSAGE Execution errororg.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:23.036
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:23.036
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:23.036
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:23.036
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:23.046
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:23.046
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:23.046
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:23.046
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2019-03-11 10:54:23.046
+!MESSAGE Execution errororg.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:23.595
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:23.595
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:23.606
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:23.606
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:23.606
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:23.606
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:23.615
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:23.615
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2019-03-11 10:54:23.615
+!MESSAGE Execution errororg.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:24.234
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:24.234
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:24.234
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:24.244
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:24.244
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:24.244
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:24.244
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:24.244
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2019-03-11 10:54:24.254
+!MESSAGE Execution errororg.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:24.669
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:24.669
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:24.679
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:24.679
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:24.679
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:24.679
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:24.679
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:24.689
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2019-03-11 10:54:24.689
+!MESSAGE Execution errororg.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:26.196
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:26.196
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:26.196
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:26.206
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:26.206
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:26.206
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:26.206
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:26.206
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2019-03-11 10:54:26.216
+!MESSAGE Execution errororg.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:26.855
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:26.855
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:26.855
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:26.855
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:26.855
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:26.855
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:26.865
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:26.865
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2019-03-11 10:54:26.865
+!MESSAGE Execution errororg.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:27.706
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:27.706
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:27.706
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:27.716
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:27.716
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:27.716
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:27.716
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:27.716
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2019-03-11 10:54:27.726
+!MESSAGE Execution errororg.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:28.145
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:28.145
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:28.145
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:28.155
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:28.155
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:28.155
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:28.155
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:28.155
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2019-03-11 10:54:28.165
+!MESSAGE Execution errororg.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:29.818
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:29.818
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:29.818
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:29.818
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:29.818
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:29.828
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:29.830
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:29.832
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2019-03-11 10:54:29.836
+!MESSAGE Execution errororg.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:30.267
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:30.267
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:30.267
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:30.267
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:30.277
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:30.277
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:30.277
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:30.277
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2019-03-11 10:54:30.287
+!MESSAGE Execution errororg.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:30.726
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:30.726
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:30.736
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:30.736
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:30.736
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:30.736
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:30.736
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:30.746
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2019-03-11 10:54:30.746
+!MESSAGE Execution errororg.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:31.362
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:31.363
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:31.365
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:31.367
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:31.368
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:31.370
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:31.372
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:31.374
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2019-03-11 10:54:31.378
+!MESSAGE Execution errororg.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:31.792
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:31.792
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:31.792
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:31.792
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:31.792
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:31.802
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:31.802
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:31.802
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2019-03-11 10:54:31.802
+!MESSAGE Execution errororg.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:32.427
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:32.427
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:32.437
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:32.437
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:32.437
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:32.437
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:32.437
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:32.437
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2019-03-11 10:54:32.447
+!MESSAGE Execution errororg.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:33.068
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:33.068
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:33.068
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:33.068
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:33.068
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:33.098
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:33.098
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:33.098
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2019-03-11 10:54:33.118
+!MESSAGE Execution errororg.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:34.679
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:34.679
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:34.679
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:34.689
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:34.689
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:34.689
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:34.689
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:34.699
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2019-03-11 10:54:34.699
+!MESSAGE Execution errororg.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:35.446
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:35.446
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:35.446
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:35.446
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:35.446
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:35.456
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:35.456
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:35.456
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2019-03-11 10:54:35.456
+!MESSAGE Execution errororg.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:35.876
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:35.886
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:35.888
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:35.890
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:35.892
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:35.894
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:35.895
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:35.897
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2019-03-11 10:54:35.901
+!MESSAGE Execution errororg.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:36.545
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:36.545
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:36.555
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:36.555
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:36.555
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:36.555
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:36.555
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:36.555
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2019-03-11 10:54:36.565
+!MESSAGE Execution errororg.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:37.195
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:37.195
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:37.195
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:37.205
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:37.205
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:37.205
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:37.205
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:37.205
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2019-03-11 10:54:37.215
+!MESSAGE Execution errororg.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:37.635
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:37.635
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:37.645
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:37.645
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:37.645
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:37.645
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:37.645
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:37.645
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2019-03-11 10:54:37.655
+!MESSAGE Execution errororg.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:38.102
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-clean-plugin:2.4.1: Plugin org.apache.maven.plugins:maven-clean-plugin:2.4.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:38.112
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-install-plugin:2.3.1: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:38.112
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-deploy-plugin:2.7: Plugin org.apache.maven.plugins:maven-deploy-plugin:2.7 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-deploy-plugin:jar:2.7
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:38.112
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.0: Plugin org.apache.maven.plugins:maven-site-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-site-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:38.112
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-antrun-plugin:1.3: Plugin org.apache.maven.plugins:maven-antrun-plugin:1.3 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-antrun-plugin:jar:1.3
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:38.142
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5: Plugin org.apache.maven.plugins:maven-assembly-plugin:2.2-beta-5 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-assembly-plugin:jar:2.2-beta-5
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:38.152
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-dependency-plugin:2.1: Plugin org.apache.maven.plugins:maven-dependency-plugin:2.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-dependency-plugin:jar:2.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-03-11 10:54:38.152
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-release-plugin:2.0: Plugin org.apache.maven.plugins:maven-release-plugin:2.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-release-plugin:jar:2.0
+
+!ENTRY com.genuitec.eclipse.maven 4 0 2019-03-11 10:54:38.172
+!MESSAGE Execution errororg.apache.maven.plugin.PluginResolutionException: Plugin org.apache.maven.plugins:maven-install-plugin:2.3.1 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-install-plugin:jar:2.3.1
+
+!ENTRY org.eclipse.core.jobs 2 2 2019-03-11 10:54:39.767
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.genuitec.eclipse.maven.core.LocalMavenRepositoryImportsJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2019-03-11 10:54:39.767
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.m2e.core.internal.index.nexus.IndexUpdaterJob
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-03-11 10:54:40.099
+!MESSAGE Unable to update index for central|http://repo.maven.apache.org/maven2
